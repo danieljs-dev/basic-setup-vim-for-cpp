@@ -7,9 +7,16 @@ This repository provides a simple, append-only Vim setup tailored for C++ work. 
 1. Run in your terminal:
    
    ```bash
-   bash -c "$(curl https://raw.githubusercontent.com/danieljs-dev/basic-setup-vim-for-cpp-/refs/heads/main/setup.sh)"
+   bash -c "$(curl https://raw.githubusercontent.com/danieljs-dev/basic-setup-vim-for-cpp/refs/heads/main/setup.sh)"
    ```
-
+   or cloning this repository and exec the shell script
+   ```
+   git clone https://github.com/danieljs-dev/basic-setup-vim-for-cpp.git
+   cd basic-setup-vim-for-cpp
+   chmod +x setup.sh
+   ./setup.sh
+   ```
+   
 2. What the script does:
    - Ensures `~/.vimrc` and the directory `~/.vim/` exist.
    - Appends the following blocks if they are not already present (idempotent):
